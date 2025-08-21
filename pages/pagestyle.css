@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "BIZ UDMincho";
+    font-weight: 400;
+    src: local("BIZ UDMINCHO"), url("assets/font/BIZUDMincho-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "FairfaxHaxHD";
+    font-weight: 400;
+    src: local("FairfaxHaxHD"), url("assets/font/FairfaxHaxHD.ttf") format("truetype");
+}
+
+body{
+    background-color: pink;
+    font-family: "BIZ UDMincho";
+}
+
+header{
+    background-color: gray;
+}
+
+.panel{
+    width: 90%;
+}
+
+#story{
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+.kkn{
+    font-family: 'FairfaxHaxHD';
+}
+
+@media screen and (min-width: 480px){
+    .panel{
+        width: 432px;
+    }
+}
