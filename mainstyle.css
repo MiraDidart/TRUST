@@ -14,14 +14,27 @@
     src: local("FairfaxHaxHD"), url("assets/font/FairfaxHaxHD.ttf") format("truetype");
 }
 
+
 body{
     font-family: "BIZ UDMincho", serif;
     font-weight: 700;
     text-align: center;
 
-    background-color: pink;
+    background-color: #000000;
 }
 
+#intros{
+    display: flex;
+    flex-direction: column;
+}
+
+.introd{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding: 2vw;
+    max-width: 80vw;
+    margin-bottom: 5vw;
+}
 #introtxt{
     background-color: gray;
 }
@@ -35,4 +48,16 @@ body{
 
 .kkn{
     font-family: 'FairfaxHaxHD';
+}
+
+@media screen and (min-width: 460px){
+    #intros{
+        flex-direction:row;
+    }
+    .introd{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding: 2vw;
+        max-width: 40vw;
+    }
 }
