@@ -45,7 +45,12 @@ h1{
     margin-left: 40px;
 }
 
-
+#lastpage{
+    display: block;
+    text-align: left;
+    padding-left: 3vw;
+    font-size: 12px;
+}
 
 
 .kkn{
